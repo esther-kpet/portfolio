@@ -190,7 +190,7 @@ header {
 }
 
 .nav__link:hover {
-    color: var(--clr-accent);
+    color: var(--clr-dark);
 }
 
 .nav-toggle {
@@ -233,9 +233,9 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent);
-    width: 2em;
-    height: 3px;
+    background: var(--clr-dark);
+    width: 3em;
+    height: 4px;
     border-radius: 1em;
     transition: transform 250ms ease-in-out;
 }
@@ -281,7 +281,7 @@ header {
 
     .intro__img {
         grid-area: img;
-        min-width: 750px;
+        min-width: 800px;
         position: relative;
         z-index: 2;
     }  
@@ -444,7 +444,7 @@ header {
 
 .footer__link:hover,
 .social-list__link:hover {
-    opacity: .7;
+    opacity: .1;
 }
 
 .footer__link:hover {

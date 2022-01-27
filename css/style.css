@@ -303,7 +303,7 @@ header {
 .my-services {
     background-color: var(--clr-light);
     background-image: url(../img/services-bg.jpg);
-    background-size: cover;
+    background-size: contain;
     /* background-blend-mode: multiply; */
     color: #ffff;
     text-align: center;

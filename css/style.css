@@ -138,7 +138,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .section__subtitle--work {
-    color: var(--clr-accent);
+    color: var(--clr-dark);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
@@ -185,7 +185,7 @@ header {
 .nav__link {
     color: inherit;
     font-weight: var(--fw-bold);
-    font-size: var(--fs-h2);
+    font-size: var(--fs-h5);
     text-decoration: none;
 }
 
@@ -310,7 +310,7 @@ header {
 }
 
 .section__title--services {
-    color: var(--clr-dark);
+    color: var(--clr-light);
     position: relative;
 }
 
@@ -389,8 +389,8 @@ header {
 /* My Work */
 
 .my-work {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;    
 }
 

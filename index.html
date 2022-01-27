@@ -1,210 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Esther KPETEMEY a.k.a Ivalba Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        
-        <!-- Update these with your own fonts -->
-         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esther KPETEMEY a.k.a Ivalba Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
-        <link rel="stylesheet" href="css/style.css">
+    <!-- Update these with your own fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/devesther .png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="img/devesther .png" alt="">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Esther KPETEMEY</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
-            <img src="img/dev-esther-03.jpg" alt="a picture of Esther  KPETEMEY smiling"
-            class="intro__img">
-        </section>
-        
-        
-        <!-- My services -->
-         <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Design + Development</h3>
-                    <p>I'm a full stack web developer. I can build the front-end and back-end design of websites and software applications.
-                        I can build custom software solutions using web technologies. With my knowledge and experience in HTML/CSS coding
-                         (useful for building blocks for website content styling and design), Server-side and back-end coding 
-                         (I utilize server-side languages (such JavaScript) and back-end languages for databases (such as Node.js, Python)
-                         Application architecture design (how to organize and design applications, structure code, separate files, set up
-                         proper file hosting, and configure databases) and Project management (my time management skills comes in handy
-                         for getting my tasks done efficiently)
-                    </p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>E-Commerce</h3>
-                    <p>With experience with Shopify (Shopify is a commerce platform that allows anyone to set up an online store and sell their products)
-                         I can help you design from beginning to end a complete e-commerce website in a matter 
-                        of hours/days. 
-                        With technological innovations making internet transactions more secure and the convenience of online shopping, people 
-                        are turning to the web for all their daily shopping needs. e-commerce is here to stay and grow to be unavoidable for 
-                        businesses in upcoming years. 
-                        Are you an entrepreneur/merchant/business owner? Let me help you stay up to date with your new e-commerce website.
-                      </p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>WordPress</h3>
-                    <p>I work with WordPress(WP), an online content management system, to design and create web applications for you.
-                        I can create designs for your WP websites and also implement or updates features based on the evolving needs of your 
-                        business.
-                    </p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            <a href="#work" class="btn">My Work</a>
-            
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Esther KPETEMEY</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
+      <img
+        src="img/dev-esther-03.jpg"
+        alt="a picture of Esther  KPETEMEY smiling"
+        class="intro__img"
+      />
+    </section>
 
-        </section>
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            I'm a full stack web developer. I can build the front-end and
+            back-end design of websites and software applications. I can build
+            custom software solutions using web technologies. With my knowledge
+            and experience in HTML/CSS coding (useful for building blocks for
+            website content styling and design), Server-side and back-end coding
+            (I utilize server-side languages (such JavaScript) and back-end
+            languages for databases (such as Node.js, Python) Application
+            architecture design (how to organize and design applications,
+            structure code, separate files, set up proper file hosting, and
+            configure databases) and Project management (my time management
+            skills comes in handy for getting my tasks done efficiently)
+          </p>
+          <p>
+            I'm a full stack web developer. I can build the front-end and
+            back-end design of websites and software applications. I can build
+            custom software solutions using web technologies. With my knowledge
+            and experience in HTML/CSS coding (useful for building blocks for
+            website content styling and design), Server-side and back-end coding
+            (I utilize server-side languages (such JavaScript) and back-end
+            languages for databases (such as Node.js, Python) Application
+            architecture design (how to organize and design applications,
+            structure code, separate files, set up proper file hosting, and
+            configure databases) and Project management (my time management
+            skills comes in handy for getting my tasks done efficiently)
+          </p>
+        </div>
+        <!-- / service -->
 
+        <div class="service">
+          <h3>E-Commerce</h3>
+          <p>
+            With experience with Shopify (Shopify is a commerce platform that
+            allows anyone to set up an online store and sell their products) I
+            can help you design from beginning to end a complete e-commerce
+            website in a matter of hours/days. With technological innovations
+            making internet transactions more secure and the convenience of
+            online shopping, people are turning to the web for all their daily
+            shopping needs. e-commerce is here to stay and grow to be
+            unavoidable for businesses in upcoming years. Are you an
+            entrepreneur/merchant/business owner? Let me help you stay up to
+            date with your new e-commerce website.
+          </p>
+        </div>
+        <!-- / service -->
 
+        <div class="service">
+          <h3>WordPress</h3>
+          <p>
+            I work with WordPress(WP), an online content management system, to
+            design and create web applications for you. I can create designs for
+            your WP websites and also implement or updates features based on the
+            evolving needs of your business.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+      <a href="#work" class="btn">My Work</a>
+    </section>
 
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Web Designer & developer based on India
+      </p>
+      <img
+        src="img/dev-esther.jpg"
+        alt="Esther smiling"
+        class="about-me__img"
+      />
+      <div class="about-me__body">
+        <p>
+          Currently student in MCA(Masters of Computer Applications): Chandigarh
+          University,Punjab/India. I am specializing in Cloud Computing and
+          DevOps. I have entered the world of Computing in 2018. I have found IT
+          and Technologies very interesting. Since then, I have been involved in
+          learning Web development and new frameworks. You know, CC(Cloud
+          Computing) is the next big thing in IT. In the mid of the year 2020, I
+          get enrolled in a nanodgree program offered by Udacity entitled "Full
+          Stack Developer". This helps me sharpen my knowledge in web
+          development.
+        </p>
+        <p>
+          I'm also in love with Android Development. I have started this new
+          path couple of months ago. I can't wait to ladder into more highly
+          levels in that area as well.
+        </p>
+        <p>
+          Lately, I have developed a passion for UI/UX Design. I work
+          comfortably with Adobe XD and Figma.
+        </p>
+      </div>
+    </section>
 
-        
-        <!-- About me -->
-        <section class="about-me" id="about">
-                 <h2 class="section__title section__title--about">Who I am</h2>
-                 <p class="section__subtitle section__subtitle--about">Web Designer & developer based 
-                     on India</p>
-                <img src="img/dev-esther.jpg" alt="Esther smiling" class="about-me__img">
-            <div class="about-me__body">
-                
-               <p>Currently student in BCA(Bachelor of Computer Applications) in Alakh Prakash Goyal Shimla University, India
-                   I have entered the world of Computing in 2018. I have found IT and Technologies very interesting. 
-                   Since then, I have been involved in learning Web development and new frameworks. 
+    <!-- My Work -->
 
-                   In the mid of the year 2020, I get enrolled in a nanodgree program offered by Udacity entitled "Full Stack Developer".
-                   This helps me sharpen my knowledge in web development.
-               </p>
-               <p>I'm also in love with Android Development. I have started this new path couple of months ago. 
-                   I can't wait to ladder into more highly levels in that area as well.
-               </p> 
-               </div>
-           
-        </section>
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range works
+      </p>
 
-        <!-- My Work -->
-        
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work ">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range works</p>
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" />
+        </a>
 
-            <div class="portfolio">
-                    <!-- Portfolio item 01 -->
-                    <a href="#" class="portfolio__item">
-                        <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
-                    </a>
+        <!-- Portfolio item 02 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" />
+        </a>
 
-                    <!-- Portfolio item 02 -->
-                    <a href="#" class="portfolio__item">
-                        <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
-                    </a>
-                
-                    <!-- Portfolio item 03 -->
-                    <a href="#" class="portfolio__item">
-                        <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-                    </a>
+        <!-- Portfolio item 03 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
+        </a>
 
-                   <!-- Portfolio item 04 -->
-                    <a href="#" class="portfolio__item">
-                        <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-                    </a>
-                
-                    <!-- Portfolio item 05 -->
-                    <a href="#" class="portfolio__item">
-                        <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
-                    </a>
+        <!-- Portfolio item 04 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
+        </a>
 
-                    <!-- Portfolio item 06 -->
-                    <a href="#" class="portfolio__item">
-                        <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
-                    </a>
-                
-                    <!-- Portfolio item 07 -->
-                    <a href="#" class="portfolio__item">
-                        <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
-                    </a>
+        <!-- Portfolio item 05 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-05.jpg" alt="" class="portfolio__img" />
+        </a>
 
-                  <!-- Portfolio item 08 -->
-                    <a href="#" class="portfolio__item">
-                        <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
-                    </a>
-                
-                    <!-- Portfolio item 09 -->
-                    <a href="#" class="portfolio__item">
-                        <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
-                    </a>
-            </div>
-        </section>
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <!-- your own email address -->
-            <a href="mailto:estherkpetofficial@gmail.com" class="footer__link">estherkpetofficial@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://dev.to/estherkpetemey">
-                       <i class="fab fa-dev"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/EstherKpetemey">
-                        <i class="fab fa-github"></i>
+        <!-- Portfolio item 06 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-06.jpg" alt="" class="portfolio__img" />
+        </a>
 
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://mobile.twitter.com/Esther_Kpetemey">
-                        <i class="fab fa-twitter-square"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.instagram.com/esther_kpet/">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in
+        <!-- Portfolio item 07 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-07.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 08 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-08.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 09 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-09.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- your own email address -->
+      <a href="mailto:estherkpetofficial@gmail.com" class="footer__link"
+        >estherkpetofficial@gmail.com</a
+      >
+      <a href="mailto:kpetemeyesther@gmail.com" class="footer__link"
+        >kpetemeyesther@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://dev.to/estherkpetemey">
+            <i class="fab fa-dev"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.fiverr.com/s2/7f6b8c4907"
+          >
+            <i class="fas fa-id-card-alt"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.upwork.com/freelancers/~01fe88f05c3ec38141?viewMode=1&s=1044578476142100545"
+          >
+            <i class="fas fa-id-card-alt"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/EstherKpetemey">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/es_kpet">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.instagram.com/esther_kpet/"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in
 /esther-etonam-ablavi-kpet
-emey-694119188/">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
+emey-694119188/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
 
-            </ul>
-        </footer>
-        
-        <script src="js/index.js"></script>
-
-    </body>
+    <script src="js/index.js"></script>
+  </body>
 </html>

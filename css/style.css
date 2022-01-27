@@ -15,9 +15,10 @@
     --fw-reg: 300;
     --fw-bold: 900;
     
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-light: #C0D8C0;
+    --clr-dark: #F5EEDC;
+    --clr-accent: #ECB390
+    ;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -423,7 +424,7 @@ header {
 /* footer */
 
 .footer {
-    background: #111;
+    background: #D4ECDD;
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;

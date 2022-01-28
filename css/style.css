@@ -385,8 +385,8 @@ header {
     
     .about-me__img {
         grid-area: img;
-        position: relative;
-        z-index: 2;
+        position: center;
+        max-width: 100%;
     }
 }
 

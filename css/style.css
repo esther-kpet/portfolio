@@ -509,7 +509,7 @@ header {
   width: 58px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
   background: url(../img/cd-top-arrow.svg) no-repeat center 50%;
-  background-color: #f6f6f6;
+  background-color: var(--clr-light);
 }
 
 /* .js .cd-top {

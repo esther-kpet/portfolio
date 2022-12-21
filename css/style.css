@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
+/* Custom Properties*/
 
 :root {
   --ff-primary: "Source Sans Pro", sans-serif;
@@ -41,6 +41,14 @@ body {
 }
 
 /* General styles */
+
+p {
+  text-align: justify;
+}
+#link {
+  color: #ff9105;
+  font-weight: bolder;
+}
 
 * {
   font-family: "Cardo", serif;
@@ -143,6 +151,7 @@ h3 {
 }
 
 .section__subtitle--work {
+  text-align: inherit;
   color: var(--clr-dark);
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
@@ -353,6 +362,7 @@ header {
 .about-me__img {
   grid-area: img;
   min-width: 800px;
+  height: 96%;
   position: relative;
   z-index: 2;
 }

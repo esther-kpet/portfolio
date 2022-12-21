@@ -508,8 +508,8 @@ header {
   height: 36px;
   width: 58px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
-  background: url(../img/cd-top-arrow.svg) no-repeat center 50%;
-  background-color: var(--clr-light);
+  background: url(../img/cd-top-arrow.svg) no-repeat center 100%;
+  background-color: #ffffff;
 }
 
 /* .js .cd-top {

@@ -1,19 +1,18 @@
-# title(){
-		
-		return this.options.title || this.options.name;
-	}
+# My personal portfolio website. 
+I built this with love using HTML, CSS and JavaScript.
 
-## Supporting Scrimba
 
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
+## Other roles
+### Designing
+A part from web development, I am also a<span style="color:orange; font-weight:bold"> **UI/UX Designer**</span>. 
 
-- [Become a professional React developer](https://scrimba.com/course/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/course/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/course/gjavascript)
+Feel free to check my personal Design website [**_here_**](https://agilely.disha.page/).
 
-	It would also mean the world to us if you share the courses.  
+### Blogging
 
-Happy Coding!
+> "Once upon a time, someone decided to check out Esther Kpetemey's personal blog named **Valeur Ajoutée**. 
+> _"They never regretted it."_  
+>
+>![MyImage](https://1.bp.blogspot.com/-8dnY_1WirQo/YFBpGxaCwCI/AAAAAAAAsfM/oIaTYkEfbWIQ2EeKORAAhxdhQ9lMSVtmACLcBGAsYHQ/w300-h400/IMG_20200824_132504.jpg)  
+
+> Here is the [**_blog_**](https://www.estherkpetemey.com/) for the privileged few.

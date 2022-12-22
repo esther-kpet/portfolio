@@ -422,7 +422,7 @@ header {
   justify-content: space-between;
   box-sizing: border-box;
   border: 2px dashed #5e454b;
-  margin-left: 80px;
+  padding-left: 80px;
 }
 .portfolio__item {
   width: 75%;

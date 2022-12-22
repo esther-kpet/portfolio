@@ -511,6 +511,7 @@ header {
   background: url(../img/cd-top-arrow.svg) no-repeat center 50%;
   background-color: #ffffff;
   white-space: pre-line;
+  cursor: pointer;
 }
 
 /* .js .cd-top {

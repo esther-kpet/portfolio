@@ -416,6 +416,7 @@ header {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-left: 80px;
 }
 .portfolio__item {
   width: 75%;

@@ -366,7 +366,8 @@ header {
 }
 
 .about-me__img {
-  grid-area: img;
+  display: flex;
+  flex-direction: column;
   min-width: 800px;
   height: 96%;
   position: relative;

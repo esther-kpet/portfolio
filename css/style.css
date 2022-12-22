@@ -419,7 +419,7 @@ header {
 }
 .portfolio__item {
   width: 75%;
-  height: 600px;
+  height: 100%;
   vertical-align: middle;
   background: var(--clr-accent);
   overflow: hidden;

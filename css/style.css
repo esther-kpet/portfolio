@@ -66,12 +66,12 @@ html {
 ::-moz-selection {
   /* Code for Firefox */
   color: default;
-  background: #eea287;
+  background: #ffe184;
 }
 
 ::selection {
   color: default;
-  background: #eea287;
+  background: #ffe184;
 }
 body {
   background: var(--clr-light);

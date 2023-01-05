@@ -63,6 +63,16 @@ html {
   scroll-behavior: smooth;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: default;
+  background: #eea287;
+}
+
+::selection {
+  color: default;
+  background: #eea287;
+}
 body {
   background: var(--clr-light);
   color: var(--clr-dark);
